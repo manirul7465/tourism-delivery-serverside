@@ -88,7 +88,7 @@ finally{
 run().catch(console.dir);
 
 app.get('/',(req,res)=>{
-    res.send('runnine manir-app server');
+    res.send(' manir-app server');
 })
 
 app.listen(port,()=>{
